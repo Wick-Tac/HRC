@@ -1,2 +1,2 @@
 # HRC
-HRC con Java y Python
+HRC con Java y Python.
