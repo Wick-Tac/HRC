@@ -33,8 +33,8 @@ try:
 		print sTimeStamp + ' ' + str(distance)
 		time.sleep(1)
 		sTmpFileStamp = time.strftime('%Y%m%d%H')
-		if sTmpFileStamp <> sFileStamp:
-		  	f.close
+		if sTmpFileStamp !=  sFileStamp:
+      		  	f.close
 		   	sFileName = 'out/' + sTmpFileStamp + '.txt'
 		   	f=open(sFileName, 'a')
 		   	sFileStamp = sTmpFileStamp
